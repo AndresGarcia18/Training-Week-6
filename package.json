@@ -1,13 +1,20 @@
 {
-  "name": "rickmorty-hubspot-integration",
+  "name": "training-express-npm-api-and-errors",
   "version": "1.0.0",
   "type": "module",
-  "description": "Node.js backend to fetch Rick and Morty characters, filter, and send them to HubSpot as contacts.",
+  "description": "Training: Express, NPM, APIs y Error Handling.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js"
   },
-  "keywords": ["rickandmorty", "hubspot", "integration", "nodejs", "express", "async"],
+  "keywords": [
+    "rickandmorty",
+    "hubspot",
+    "integration",
+    "nodejs",
+    "express",
+    "async"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

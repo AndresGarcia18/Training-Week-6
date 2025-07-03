@@ -1,6 +1,7 @@
 // Entry point for the  hubspot integration API
+import './config/env.js';
 import express from 'express';
-import characterRoutes from './routes/characterRoutes.js';
+import characterRoutes from './routes/userRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT;
